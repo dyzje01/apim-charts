@@ -10,9 +10,9 @@ license:
   # existingSecretName: ssg-license
 
 image:
-  registry: docker.io
-  repository: caapim/gateway
-  tag: 10.1.00
+  registry: 192443709020.dkr.ecr.us-west-2.amazonaws.com
+  repository: jd683606/gateway-enterprise-derived
+  tag: aws4signerassertion
   pullPolicy: IfNotPresent
 
 # Set this if you would like to add an image pull secret directly to the Gateway deployment
